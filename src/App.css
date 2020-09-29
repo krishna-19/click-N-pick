@@ -1,0 +1,170 @@
+* {
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.Header-Background {
+    background-image: url("./pic.png");
+    min-height: 60px;
+    min-width: 10px;
+    box-sizing: border-box;
+}
+
+.name {
+    width: 100%;
+    display: inline-block;
+}
+
+.name h1 {
+    font-family: "Righteous", cursive;
+    margin-left: 5px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.Head-Button Button {
+    background-color: #17a362;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Searchbar-form {
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    height: 80px;
+}
+
+.searchbar-input {
+    background: rgba(163, 150, 150, 0.973);
+    color: #fcf7f7;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 17px;
+    opacity: 5.8;
+}
+
+.submit-input {
+    background: black;
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+.Searchbar-button {
+    position: absolute;
+    top: 2%;
+    left: 105%;
+    width: 40px;
+    height: 35px;
+    background-color: #17a362;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* new post */
+
+.alignLeft {
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+/* sign in and sign up */
+
+.alignRight {
+    float: right;
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+/* headercard title */
+
+.headCardTitle {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Cards */
+
+.cards {
+    background-image: url("./plain.png");
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* card image */
+
+.card-image {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(138, 125, 125, 0.473);
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-image img {
+    width: 60%;
+}
+
+.card-button {
+    background-color: darkgray;
+    border: none;
+    font-size: large;
+    padding: 15px 65px;
+    cursor: pointer;
+}
+
+
+/* Cards Stats */
+
+.card-stats {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #2e3035;
+    padding: 2px;
+}
+
+
+/* footer style */
+
+.navigation li {
+    background-color: black;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.navigation a {
+    color: whitesmoke;
+    background: black;
+    padding: 25px 137.8px;
+}
